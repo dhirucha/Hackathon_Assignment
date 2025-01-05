@@ -27,7 +27,7 @@ This application was developed as a **Pre-Hackathon Assignment** by Team **TechT
 
 ## Deployment  
 The application has been deployed and is accessible via the following link:  
-[Social Media Engagement Insights Tool](https://your-deployment-link.com)  
+[Social Media Engagement Insights Tool](https://techtea-social-media-performance-analysis-insights-tool.streamlit.app/)  
 
 ## Team  
 - **Team Name:** TechTea  
