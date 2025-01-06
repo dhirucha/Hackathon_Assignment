@@ -132,7 +132,7 @@
                 "placeholder": "",
                 "show": true,
                 "name": "input_value",
-                "value": "reels",
+                "value": "invalid",
                 "display_name": "Text",
                 "advanced": false,
                 "input_types": [
@@ -902,7 +902,7 @@
                 "placeholder": "",
                 "show": true,
                 "name": "template",
-                "value": "Analyze the social media engagement data for the post type provided by the user. The data includes the average number of likes, shares, and comments for various post types (e.g., carousel, reels, static images).\n\nPerform the following:\n\n1. Focus on User-Provided Post Type: Compare the average engagement metrics (likes, shares, comments) of the user-provided post type (e.g., {post_type}) with the averages of other post types in the dataset.\n\n\n2. Highlight Key Insights: Generate multiple insights that detail how the provided post type performs compared to others. Include observations like which metrics it excels in and where it underperforms.\n\n\n3. Provide Recommendations: Suggest specific actions to improve the performance of the user-provided post type or strategies to capitalize on its strengths.\n\n\n\nOutput Example:\n\nFor the post type carousel:\n\n• Carousel posts have 15% more likes than static images but 20% fewer shares than reels.\n\n• They perform well in likes but may need more engaging captions or visuals to boost shares.\n\n• Consider combining carousel content with video elements to increase shares.\n\n\nFor the post type reels:\n\nReels drive 2x more comments than static images and 30% more shares than carousels.\n\nLeverage reels for campaigns focusing on comment engagement.\n\nOptimize reels by using trending audio to amplify reach.\n",
+                "value": "Analyze the social media engagement data for the post type provided by the user. The data includes the average number of likes, shares, and comments for various post types (e.g., carousel, reels, static images).\n\nPerform the following:\n\n1. Focus on User-Provided Post Type: Compare the average engagement metrics (likes, shares, comments) of the user-provided post type (e.g., {post_type}) with the averages of other post types in the dataset.\n\n\n2. Highlight Key Insights: Generate multiple insights that detail how the provided post type performs compared to others. Include observations like which metrics it excels in and where it underperforms.\n\n\n3. Provide Recommendations: Suggest specific actions to improve the performance of the user-provided post type or strategies to capitalize on its strengths.\n\n\n\nOutput Example:\n\nFor the post type carousel:\n\n• Carousel posts have 15% more likes than static images but 20% fewer shares than reels.\n\n• They perform well in likes but may need more engaging captions or visuals to boost shares.\n\n• Consider combining carousel content with video elements to increase shares.\n\n\nFor the post type reels:\n\nReels drive 2x more comments than static images and 30% more shares than carousels.\n\nLeverage reels for campaigns focusing on comment engagement.\n\nOptimize reels by using trending audio to amplify reach.\n\n\nError Handling:\nIf the input is invalid or does not match any known post type, respond with:\n'The input provided does not match any known post type. Please enter a valid type such as carousel, reels, or static images.",
                 "display_name": "Template",
                 "advanced": false,
                 "dynamic": false,
@@ -1715,16 +1715,44 @@
         "id": "reactflow__edge-Agent-o0Vd1{œdataTypeœ:œAgentœ,œidœ:œAgent-o0Vd1œ,œnameœ:œresponseœ,œoutput_typesœ:[œMessageœ]}-ChatOutput-Cle05{œfieldNameœ:œinput_valueœ,œidœ:œChatOutput-Cle05œ,œinputTypesœ:[œMessageœ],œtypeœ:œstrœ}",
         "animated": false,
         "className": ""
+      },
+      {
+        "source": "ChatInput-gkjtN",
+        "sourceHandle": "{œdataTypeœ:œChatInputœ,œidœ:œChatInput-gkjtNœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}",
+        "target": "Prompt-LTFEO",
+        "targetHandle": "{œfieldNameœ:œpost_typeœ,œidœ:œPrompt-LTFEOœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "data": {
+          "targetHandle": {
+            "fieldName": "post_type",
+            "id": "Prompt-LTFEO",
+            "inputTypes": [
+              "Message",
+              "Text"
+            ],
+            "type": "str"
+          },
+          "sourceHandle": {
+            "dataType": "ChatInput",
+            "id": "ChatInput-gkjtN",
+            "name": "message",
+            "output_types": [
+              "Message"
+            ]
+          }
+        },
+        "id": "reactflow__edge-ChatInput-gkjtN{œdataTypeœ:œChatInputœ,œidœ:œChatInput-gkjtNœ,œnameœ:œmessageœ,œoutput_typesœ:[œMessageœ]}-Prompt-LTFEO{œfieldNameœ:œpost_typeœ,œidœ:œPrompt-LTFEOœ,œinputTypesœ:[œMessageœ,œTextœ],œtypeœ:œstrœ}",
+        "animated": false,
+        "className": ""
       }
     ],
     "viewport": {
-      "x": 642.6380367557233,
-      "y": 59.47238035143715,
-      "zoom": 0.6441621943309384
+      "x": 530.7677949993415,
+      "y": 89.24256517344293,
+      "zoom": 0.5689427891224424
     }
   },
   "is_component": false,
-  "updated_at": "2025-01-05T12:21:42+00:00",
+  "updated_at": "2025-01-06T05:52:56+00:00",
   "icon": null,
   "name": "social_media_analysis",
   "icon_bg_color": null,
