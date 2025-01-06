@@ -22,7 +22,7 @@
   },
   {
     "post_id": "002",
-    "post_type": "video",
+    "post_type": "carousel",
     "posted_date": "2024-08-21",
     "caption": "A perfect sunset by the beach \ud83c\udfd6\ufe0f\ud83c\udf05",
     "likes": 1516,
@@ -42,7 +42,7 @@
   },
   {
     "post_id": "003",
-    "post_type": "video",
+    "post_type": "carousel",
     "posted_date": "2024-08-17",
     "caption": "Inspiring quotes to brighten your day \u2728\ud83d\udcdc",
     "likes": 739,
@@ -85,7 +85,7 @@
   },
   {
     "post_id": "005",
-    "post_type": "story",
+    "post_type": "static images",
     "posted_date": "2024-10-18",
     "caption": "A perfect sunset by the beach \ud83c\udfd6\ufe0f\ud83c\udf05",
     "likes": 832,
@@ -111,7 +111,7 @@
   },
   {
     "post_id": "006",
-    "post_type": "video",
+    "post_type": "carousel",
     "posted_date": "2024-03-20",
     "caption": "Fitness tips for a healthier you \ud83d\udcaa\ud83c\udffd\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
     "likes": 1985,
@@ -155,7 +155,7 @@
   },
   {
     "post_id": "008",
-    "post_type": "video",
+    "post_type": "carousel",
     "posted_date": "2024-10-17",
     "caption": "Explore the beauty of nature \ud83c\udf33\u2728",
     "likes": 893,
@@ -199,7 +199,7 @@
   },
   {
     "post_id": "010",
-    "post_type": "video",
+    "post_type": "carousel",
     "posted_date": "2024-04-04",
     "caption": "Explore the beauty of nature \ud83c\udf33\u2728",
     "likes": 445,
@@ -282,7 +282,7 @@
   },
   {
     "post_id": "014",
-    "post_type": "video",
+    "post_type": "carousel",
     "posted_date": "2024-01-02",
     "caption": "Highlight moments of the year \ud83c\udf89\ud83d\udcf8",
     "likes": 978,
@@ -540,7 +540,7 @@
   },
   {
     "post_id": "027",
-    "post_type": "story",
+    "post_type": "static images",
     "posted_date": "2024-04-13",
     "caption": "Delicious recipes to try this weekend \ud83c\udf73\ud83d\ude0b",
     "likes": 1102,
@@ -585,7 +585,7 @@
   },
   {
     "post_id": "029",
-    "post_type": "story",
+    "post_type": "static images",
     "posted_date": "2024-07-10",
     "caption": "A perfect sunset by the beach \ud83c\udfd6\ufe0f\ud83c\udf05",
     "likes": 1148,
@@ -627,7 +627,7 @@
   },
   {
     "post_id": "031",
-    "post_type": "story",
+    "post_type": "static images",
     "posted_date": "2024-08-29",
     "caption": "Behind the scenes \ud83c\udfa5\u2728",
     "likes": 1572,
@@ -649,7 +649,7 @@
   },
   {
     "post_id": "032",
-    "post_type": "video",
+    "post_type": "carousel",
     "posted_date": "2024-02-29",
     "caption": "Inspiring quotes to brighten your day \u2728\ud83d\udcdc",
     "likes": 1462,
@@ -672,7 +672,7 @@
   },
   {
     "post_id": "033",
-    "post_type": "story",
+    "post_type": "static images",
     "posted_date": "2024-11-07",
     "caption": "Fitness tips for a healthier you \ud83d\udcaa\ud83c\udffd\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
     "likes": 905,
@@ -696,7 +696,7 @@
   },
   {
     "post_id": "034",
-    "post_type": "video",
+    "post_type": "carousel",
     "posted_date": "2024-11-11",
     "caption": "Fitness tips for a healthier you \ud83d\udcaa\ud83c\udffd\ud83c\udfcb\ufe0f\u200d\u2640\ufe0f",
     "likes": 1983,
@@ -958,7 +958,7 @@
   },
   {
     "post_id": "047",
-    "post_type": "video",
+    "post_type": "carousel",
     "posted_date": "2024-04-26",
     "caption": "Inspiring quotes to brighten your day \u2728\ud83d\udcdc",
     "likes": 575,
@@ -996,7 +996,7 @@
   },
   {
     "post_id": "049",
-    "post_type": "video",
+    "post_type": "carousel",
     "posted_date": "2024-09-15",
     "caption": "Explore the beauty of nature \ud83c\udf33\u2728",
     "likes": 331,
@@ -1016,7 +1016,7 @@
   },
   {
     "post_id": "050",
-    "post_type": "story",
+    "post_type": "static images",
     "posted_date": "2024-02-06",
     "caption": "Top 5 travel destinations for 2024 \ud83c\udf0d\u2708\ufe0f",
     "likes": 1567,
